@@ -1,0 +1,36 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+
+# Build
+[Bb]in/
+[Oo]bj/
+artifacts/
+publish/
+
+# Local databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Tests
+TestResults/
+coverage/
+*.trx
+
+# Local configuration
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+
+# Temporary files
+*.log
+*.tmp
+*.bak
